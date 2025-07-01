@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.controls {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 999;
+}
+
+.controls button {
+  padding: 15px 20px;
+  font-size: 20px;
+  background: #ffffffaa;
+  border: none;
+  border-radius: 10px;
+}
